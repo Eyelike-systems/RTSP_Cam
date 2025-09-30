@@ -1,0 +1,24 @@
+windows + R
+
+type: regedit
+
+go to this path
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+
+
+you need to create:
+
+AutoAdminLogon	REG_SZ	1
+DefaultUserName	REG_SZ	ADMN
+DefaultPassword	REG_SZ	your password here
+DefaultDomainName	REG_SZ	your computer name (optional)
+
+process for create:
+
+Still inside the Winlogon folder:
+In the right pane, right-click anywhere → choose New → String Value
+
+New → String Value → Name it AutoAdminLogon → double-click → set value to 1
+
+Repeat for the rest.

@@ -1,0 +1,34 @@
+ssh -i "C:\eyelikeKey.pem" ubuntu@ec2-52-66-173-65.ap-south-1.compute.amazonaws.com
+
+
+
+0|app  | Location Latitude:  18.5146638
+0|app  | Location Longitude:  73.8565533
+
+
+
+Steps to Fix the Permissions on Windows:
+Right-click on the eyelikeKey.pem file
+→ Select Properties
+
+Go to the Security tab
+→ Click on Advanced
+
+In the Advanced Security Settings window:
+
+Click Disable inheritance
+
+When prompted, choose Remove all inherited permissions from this object
+
+Click Add → Click Select a principal
+
+Type your Windows username → Click Check Names → Click OK
+
+Under Basic permissions, check only Read
+→ Click OK, then Apply, then OK again to close all dialogs
+
+🧪 Now, test your SSH command again:
+bash
+Copy
+Edit
+ssh -i "C:\eyelikeKey.pem" ubuntu@ec2-52-66-173-65.ap-south-1.compute.amazonaws.com

@@ -1,0 +1,8 @@
+cam user name: admin
+cam pass:Hikvision@12
+
+
+http://169.254.15.202/doc/index.html#/preview?t=1751964009795
+
+plugin install: 
+http://hikdownload.hik-connect.com/web/webplugin/windows/local-service-components/v1.0.0.0/standard/LocalServiceComponents.exe#timeStamp=1751964018837

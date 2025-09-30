@@ -1,0 +1,14 @@
+Any desk id: 1296880988
+pass: Anydesk@123
+
+Task Schedular:
+Press 🔍 Start → Search Task Scheduler → Open it
+
+OR Press Win + R, type taskschd.msc, press Enter
+
+name of task: Start Node RTSP Server
+
+pc and task schedular pass: 1234
+
+terminal command for test node js server running or not
+netstat -ano | find ":3010"

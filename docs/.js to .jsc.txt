@@ -1,0 +1,18 @@
+conver .js to .jsc file
+
+import lib command: npm install -g bytenode
+
+then run command: bytenode --compile yourapp.js
+
+create start.js file ( this required)
+
+in this file import bytenode and your .jsc file like below:
+
+//start.js
+require('bytenode');
+require('./yourapp.jsc');
+
+then run: node start.js
+
+
+
